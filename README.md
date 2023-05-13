@@ -1,4 +1,5 @@
 ### todo
-> option to delete items
-> options to mark them complete
+
+-option to delete items <br>
+-<s>options to mark them complete</s>
 

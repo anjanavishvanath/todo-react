@@ -2,6 +2,10 @@ body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(63,135,227,1) 81%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-family: 'Poppins', sans-serif; 
 }
 
 .App{
@@ -12,7 +16,8 @@ body{
 }
 
 .add-todo{
-    border: 1px solid black;
+    border: 1px solid white;
+    border-radius: 5px;
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -22,4 +27,27 @@ body{
 .add-todo > *{
     margin: 5px;
     padding: 10px 5px;
+}
+
+.enter-todo{
+    background: #43318e;
+    border: 1 px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.todo-list{
+    width: 95%;
+}
+
+.todo-item{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background: rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 0;
 }

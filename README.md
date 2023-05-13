@@ -1,5 +1,8 @@
-### todo
+## description
 
--option to delete items <br>
--<s>options to mark them complete</s>
+Using react to make a simple todo app.
 
+
+### things to do
+
+store this stuff in localStorage
